@@ -23,7 +23,7 @@ const TicTacToe = () => {
         if (lock) {
             return 0
         }
-        if (count % 2 == 0) {
+        if (count % 2 === 0) {
             e.target.innerHTML = `<img src='${cross}' class='icon'>`
             data[num] = "x"
             setCount(++count)
